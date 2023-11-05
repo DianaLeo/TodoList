@@ -9,7 +9,7 @@ const newDescription = document.getElementById('description');
 
 const ids = [];
 const completeds = [];
-const baseUrl = process.env.BASE_URL
+const baseUrl = 'http://13.55.238.167:83/api/tasks';
 
 getTodoList(baseUrl);
 
